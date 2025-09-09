@@ -11,6 +11,9 @@ import NoteForm from '@/components/NoteForm/NoteForm';
 import { keepPreviousData, useQuery } from '@tanstack/react-query';
 import { useDebouncedCallback } from 'use-debounce';
 
+// type NoteProps = {
+//   tag: string
+// }
 
 export default function Notes() {
   const [currentPage, setCurrentPage] = useState(1);
