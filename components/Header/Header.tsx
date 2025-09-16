@@ -13,9 +13,6 @@ export default function Header() {
                     <li>
                         <Link href="/">Home</Link>
                     </li>
-                    <li>
-                        <Link href="/notes">Notes</Link>
-                    </li>
                     <TagsMenu />
                 </ul>
             </nav>
